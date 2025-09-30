@@ -17,6 +17,8 @@
 *.scss text eol=lf
 *.html text eol=lf
 
+
+
 # Markdown / Git files
 *.md       text eol=lf
 *.gitignore text eol=lf
