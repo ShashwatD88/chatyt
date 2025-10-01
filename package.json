@@ -1,0 +1,22 @@
+{
+  "name": "chatyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/ff && npm run build --prefix frontend/ff",
+    "start": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShashwatD88/chatyt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShashwatD88/chatyt/issues"
+  },
+  "homepage": "https://github.com/ShashwatD88/chatyt#readme"
+}
