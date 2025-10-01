@@ -4,8 +4,6 @@ const app = express()
 import dotenv from 'dotenv'
 dotenv.config()
 const __dirname = path.resolve()
-
-
 const PORT=process.env.PORT || 3000
 import authroutes from './routes/auth.route.js'
 import messageroutes from './routes/message.route.js'
